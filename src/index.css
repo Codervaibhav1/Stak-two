@@ -509,8 +509,9 @@ body {
     display: none;
   }
   .call {
-    width: 35%;
+    width: 55%;
     height: 40px;
+    margin-left: 70px;
   }
   .story-section{
     width: 100%;
@@ -527,8 +528,9 @@ body {
     justify-content: center;
   }
   .rupee {
-    width: 50%;
+    width: 84%;
     height: 40px;
+    background-color: blue;
   }
   .feedback{
     width: 100%;
@@ -634,5 +636,15 @@ body {
     margin-right: 40px;
     width: 90%;
     height: auto;
+  }
+  .seo-one h4 img{
+  display: none;
+  }
+  .seo-one h4{
+    text-align: center;
+    justify-content: center;
+  }
+  .seo-one p{
+    text-align: center;
   }
 }

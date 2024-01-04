@@ -13,7 +13,7 @@ import Travels from './components/Travels'
 
 const App = () => {
   return (
-    <div>
+    <div className='main-container'>
       <Navbar/>
       <HeroSection/>
       <Solution/>

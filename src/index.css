@@ -107,7 +107,7 @@ body {
   margin-top: 30px;
 }
 .hero-section {
-  width: 100%;
+  width: 85%;
   height: 550px;
   background-image: url(./assets/rectangle-469.png);
   background-size: cover;
@@ -494,10 +494,11 @@ body {
   .hero-section{
     width: 100%;
     height: auto;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .text-section{
     width: 90%;
+    text-align: center;
   }
   .img-section{
     width: 100%;
@@ -511,15 +512,16 @@ body {
   .call {
     width: 55%;
     height: 40px;
-    margin-left: 70px;
+    margin-left: 110px;
   }
   .story-section{
     width: 100%;
     height: auto;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .story-text{
     width: 90%;
+    text-align: center;
   }
   .story-img{
     width: 100%;
@@ -531,6 +533,7 @@ body {
     width: 84%;
     height: 40px;
     background-color: blue;
+    margin-left: 50px
   }
   .feedback{
     width: 100%;
